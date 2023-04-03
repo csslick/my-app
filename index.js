@@ -7,4 +7,5 @@ console.log(d);
 var formatedD = format(d, 'yyyy-MM-dd');
 console.log(formatedD);
 
- 
+ var hour = d.getHours();
+ console.log('hours =', hour);
